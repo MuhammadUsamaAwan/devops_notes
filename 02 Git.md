@@ -20,7 +20,7 @@
 
 - `git branch` = list your branches. a \* will appear next to the currently active branch
 - `git branch [branch-name]` = create a new branch at the current commit. Naming conventions: temporary branches; feature/feat, bugfix, hotfix, exprimental, WIP. master/main = production branch, dev = development branch, QA/test = testing branch
-- `git checkout` = switch to another branch and check it out into your working directory
+- `git checkout [branch-name]` = switch to another branch
 - `git checkout -b [branch-name]` = create and switch to a new branch
 
 **Inspect & Compare**
@@ -29,13 +29,13 @@
 
 **Tracking Path Changes**
 
-- `git rm -r --cached [file|folder]` = delete the file from project and stage the removal for commit. -r meaning recursive
-- `git rm -r [file|folder]` = kept the file from project and stage the removal for commit.
+- `git rm -r [file|folder]` = delete the file from project and stage the removal for commit. -r meaning recursive
+- `git rm -r --cached [file|folder]` = kept the file from project and stage the removal for commit.
 
 **Share & Update**
 
-- `git remote add add origin [url]` = add a git remote repository
-- `git fetch` = fetch down all the branches from that Git remote
+- `git remote add origin [url]` = add a git remote repository
+- `git fetch` = fetch down all the branches from that git remote
 - `git merge [branch]` = merge the specified branch’s history into the current one
 - `git push` = transmit local branch commits to the current remote repository branch
 - `git push origin [branch]` = transmit local branch commits to the remote repository branch
@@ -45,10 +45,10 @@
 **Undo Commits / Rewrite History**
 
 - `git commit --amend` = merge the changes into the previous commit
-- `git checkout [commit-hash]` = go back to the a commit
+- `git checkout [commit-hash]` = go back to a previous commit
 - `git rebase [branch]` = apply any commits of current branch ahead of specified one
-- `git reset --hard HEAD~[n]` = undo n number of commits and changes
-- `git reset --soft HEAD~[n]` = undo n number of commits without changes
+- `git reset --hard HEAD~[n]` = undo n number of commits and discard the changes
+- `git reset --soft HEAD~[n]` = undo n number of commits and kept the changes
 - `git push --force` = push and overwrite the remote branch
 - `git revert [commit-hash]` = create a new commit to revert the old commit's changes
 
