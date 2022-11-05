@@ -145,6 +145,7 @@ Vim Commands:
 <details>
 <summary>Users & Permissions</summary>
 <br />
+
 **User Catagories:**
 
 - `root user` = unrestricted permissions
@@ -283,6 +284,7 @@ Different redirects examples/use cases:
 <details>
 <summary>Shell Scripting</summary>
 <br />
+
 **Basics:**<br>
 
 ```sh
@@ -562,7 +564,8 @@ Persisting Environment Variables system wide:
 <details>
 <summary>Networking</summary>
 <br />
-Useful Networking Commands:
+
+**Useful Networking Commands:**
 
 - `ip`= one of the basic commands. For setting up new systems and assigning IPs to troubleshooting existing systems. Can show address information, manipulate routing, plus display network various devices, interfaces, and tunnels.
 - `ifconfig`= for configuring and troubleshooting networks. It has since been replaced by the `ip` command
