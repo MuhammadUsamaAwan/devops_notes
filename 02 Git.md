@@ -7,7 +7,7 @@
 **Init**
 
 - `git init` = initialize an existing directory as a Git repository
-- `git clone [url]` = retrieve an entire repository from a hosted location via URL. To clone you need to
+- `git clone [url]` = retrieve an entire repository from a hosted location via URL.
 
 **Stage & Snapshot**
 
@@ -29,8 +29,8 @@
 
 **Tracking Path Changes**
 
-- `git rm -r --cached node_modules` = delete the file from project and stage the removal for commit. -r meaning recursive
-- `git rm -r node_modules` = kept the file from project and stage the removal for commit.
+- `git rm -r --cached [file|folder]` = delete the file from project and stage the removal for commit. -r meaning recursive
+- `git rm -r [file|folder]` = kept the file from project and stage the removal for commit.
 
 **Share & Update**
 
@@ -49,7 +49,7 @@
 - `git rebase [branch]` = apply any commits of current branch ahead of specified one
 - `git reset --hard HEAD~[n]` = undo n number of commits and changes
 - `git reset --soft HEAD~[n]` = undo n number of commits without changes
-- `git push --force` = overwrites the remote branch
+- `git push --force` = push and overwrite the remote branch
 - `git revert [commit-hash]` = create a new commit to revert the old commit's changes
 
 **Conflicts**
