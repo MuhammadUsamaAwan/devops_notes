@@ -5,17 +5,18 @@
 
 **Setup firewall**
 
-- droplets>your droplet>access>firewall>edit>create firewall>open port 22 for your
-- add this firewall to your droplet
+- Droplets>your droplet>access>firewall>edit>create firewall>open port 22 for your
+- Add this firewall to your droplet
 
 **Deploy Your Apllication**
 
 - `ssh root@<server-ip>`
-- install any dependencies
+- Onstall any dependencies
 - `scp <source< <target>:<location>` = eg, `scp test.sh root@159.89.14.94:/rooot`
-- start your application = eg, `java -jar my-app.jar &` & = detach mode
+- Start your application = eg, `java -jar my-app.jar &` & = detach mode
 - `ps aux | grep java` = to check your running java application
 - `netstat` = to check which service is running on which port
+- Open port in firewall for all sources
 
 **Create a Service User**
 
