@@ -10,9 +10,9 @@
 
 **Deploy Your Apllication**
 
-- `ssh root@<server-ip>`
+- `ssh root@[server-ip]`
 - Onstall any dependencies
-- `scp <source< <target>:<location>` = eg, `scp test.sh root@159.89.14.94:/rooot`
+- `scp [source] [target]:[location]` = eg, `scp test.sh root@159.89.14.94:/rooot`
 - Start your application = eg, `java -jar my-app.jar &` & = detach mode
 - `ps aux | grep java` = to check your running java application
 - `netstat` = to check which service is running on which port
@@ -20,9 +20,9 @@
 
 **Create a Service User**
 
-- `addUser <username>`
-- `usermod -aG sudo <username>` = give sudo privileges
-- `su - <username>` = login user
+- `addUser [username]`
+- `usermod -aG sudo [username]` = give sudo privileges
+- `su - [username]` = login user
 - `mkdir .ssh` = in home directory of service user
 - `sudo vim .ssh/authorized_keys` = copy your public SSh key, without this you can't access the service directly
-- `ssh <username>@<server-ip>`
+- `ssh [username]@[server-ip]`

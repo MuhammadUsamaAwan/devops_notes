@@ -2,7 +2,7 @@ For Java applications
 
 - `./gradlew build` = for gradle, the build will be created inside the build folder
 - `mvn install` = for maven, before the command pom.xml add build configuration. The build will be created inside the target folder
-- `java -jar <java-file>` = run the java applications
+- `java -jar [java-file]` = run the java applications
 
 For JavaScript applications
 
