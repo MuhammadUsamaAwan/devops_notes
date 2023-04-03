@@ -40,7 +40,7 @@
 - `git push` = transmit local branch commits to the current remote repository branch
 - `git push origin [branch]` = transmit local branch commits to the remote repository branch
 - `git pull` = fetch and merge any commits from the tracking remote branch
-- `git pull --rebase | git pull -r` = fetch and merge any commits from the tracking remote branch without andding a new commit
+- `git pull --rebase | git pull -r` =  fetches the latest changes from the remote branch, and then applies your local commits on top of the new changes, as if you had made your changes on top of the latest changes in the remote branch from the beginning. This results in a linear history without creating a new merge commit.
 
 **Undo Commits / Rewrite History**
 
