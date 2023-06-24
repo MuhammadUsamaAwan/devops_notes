@@ -6,7 +6,7 @@
 - `docker ps` = list all running containers
 - `docker run [image-name] -d` = run the container in detach mode
 - `docker stop [container-id]` = stops the container
-- `docker run [container-id]` = start the container
+- `docker start [container-id]` = start the container
 - `docker ps -a` = list all containers
 - `docker run -p [host-port]:[container-port] [image-name]` = runs container on host port, container port can be the same
 - `docker run --name [container-name] [image-name]` = runs container with name
