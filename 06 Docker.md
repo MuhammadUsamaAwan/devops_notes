@@ -4,7 +4,7 @@
 - `docker images` = list all the images
 - `docker run [image-name]` = run a new container
 - `docker ps` = list all running containers
-- `docker run [image-name] -d` = run the container in detach mode
+- `docker run -d [image-name]` = run the container in detach mode
 - `docker stop [container-id]` = stops the container
 - `docker start [container-id]` = start the container
 - `docker ps -a` = list all containers
