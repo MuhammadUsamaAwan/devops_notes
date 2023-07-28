@@ -11,7 +11,7 @@
 **Deploy Your Apllication**
 
 - `ssh root@[server-ip]`
-- Onstall any dependencies
+- Install any dependencies
 - `scp [source] [target]:[location]` = eg, `scp test.sh root@159.89.14.94:/rooot`
 - Start your application = eg, `java -jar my-app.jar &` & = detach mode
 - `ps aux | grep java` = to check your running java application

@@ -30,7 +30,7 @@ General Operations:
 
 Directory Operatings:
 
-- `pwd` = Show current directory. Example Output: `/home/nana`
+- `pwd` = Show current directory. Example Output: `/home/usama`
 - `ls` = List folders and files. Example Output: `Desktop Downloads Pictures Documents`
 - `cd [dirname]` = Change directory to [dir]
 - `mkdir [dirname]` = Make directory [dirname]
@@ -49,7 +49,7 @@ Navigating in the File System:
 - `cd ../..` = Move up 2 hierarchies, so go to 'usr' directory
 - `cd /usr` = Alternative to go to 'usr' directly (absolute path)
 - `cd [absolute path]` = Move to any location by providing the full path
-- `cd /home/nana` = Go to my home directory (absolute path)
+- `cd /home/usama` = Go to my home directory (absolute path)
 - `cd ~` = Shortcut alternative to go to home directory
 - `ls /etc/network` = List folders and files of 'network' directory
 
@@ -356,7 +356,7 @@ fi
 
 # example conditional for checking strings
 user_group=$2
-if [ "$user_group" == "nana" ]
+if [ "$user_group" == "usama" ]
 then
  echo "configure the server"
 elif [ "$user_group" == "admin" ]
@@ -515,8 +515,8 @@ _An environment variable consists of \_name=value_ pair.\_
 **Existing Environment Variables:**
 
 - `SHELL=/bin/bash`= default shell program, in this case bash
-- `HOME=/home/nana`= current user's home directory
-- `USER=nana` = currently logged in user
+- `HOME=/home/usama`= current user's home directory
+- `USER=usama` = currently logged in user
 <!-- -->
 - `printenv` = List all environment variables
 - `printenv | less` = List all environment variables with less program
@@ -558,7 +558,7 @@ Persisting Environment Variables system wide:
 **PATH Environment Variable:**
 
 - `PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin` = List of directories to executible files, separated by ':'. Tells the shell which directories to ssearch for the executable in response to our executed command
-- `PATH=$PATH:/home/nana` = Appending /home/nana folder to the existing $PATH value
+- `PATH=$PATH:/home/usama` = Appending /home/usama folder to the existing $PATH value
 </details>
 
 <details>

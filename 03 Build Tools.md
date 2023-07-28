@@ -7,7 +7,7 @@ For Java applications
 For JavaScript applications
 
 - `npm pack` = to pack all code in a single .tgz file
-- in server copy and unpack the .tgz file then install dependencies with `npm install` and start the server using npm
-- for frontend JavaScript applications you need to create a build first
+- In server copy and unpack the .tgz file then install dependencies with `npm install` and start the server using npm
+- For frontend JavaScript applications you need to create a build first
 
 For other programming lanaguages other similar build tools exists like Pip for Python
